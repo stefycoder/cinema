@@ -1,0 +1,13 @@
+.fondo{
+	background-color: #F4F4F4;
+	height: 800px;
+}
+.bailes img{
+	width: 280px;
+	height: 350px;
+	padding: 10px;
+}
+.espacio h3{
+	padding-top:40px;
+	margin-bottom: 20px;
+}
