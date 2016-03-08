@@ -1,0 +1,160 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+/*Escribe aqui tu codigo */
+.header{
+	border:1px solid black;
+	width: 100%;
+	position: fixed;
+	z-index: 20;
+}
+.black-bg{
+	background: #424A5D;
+    color: white;
+    padding: 15px 0 15px 30px;
+    height: 50px;
+}
+#sidebar{
+	height: 100vh;
+    color: white;
+    padding: 50px 15px 0 15px;
+    position: fixed;
+}
+.top-menu{
+	position: relative;
+    bottom: 15px;
+    right: 20px;
+}
+.sub-menu{
+	padding-bottom: 15%;
+	list-style-type: none;
+}
+.sub-menu a{
+	color: white;
+	display: block;
+	font-size: 10px;
+}
+.sub-menu a.active{
+	background: #9C4C9D;
+	padding: 8%;
+}
+.sub-menu a:hover{
+	background: #E26EAB;
+	padding: 8%;
+	text-decoration: none;
+}
+.sidebar-toggle-box{
+	float: left;
+}
+.logo{
+	padding-left: 2%;
+	color: white;
+}
+.mt{
+	margin: 0;
+}
+.logout{
+	background: #9C4C9D;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+#main-content{
+	margin-left: 160px;
+	padding: 50px 15px 0 15px;
+	background: #F2F2F2;
+	margin-bottom: 20px;
+}
+.wrapper h3{
+	color:#939393;
+}
+.showback, .form-panel, .content-panel{
+	background: white;
+	padding:3%;
+	margin-top: 10px;
+	box-shadow: 0px 3px 5px #888888;
+	color: #8F8F8F;
+}
+.sidebar-menu{
+	padding: 0;
+}
+.box0{
+	margin-top: 50px;
+}
+.main-chart .row a:hover .mostrar{
+	display: block;
+	color: #FF9874;
+}
+.main-chart .row a:hover .box0{
+ 	background: white;
+}
+.main-chart .row a:hover .box1{
+ 	border:none;
+}
+.box1{
+	font-size: 3em;
+	text-align: center;
+	color:#989898;
+	border-bottom: 1px solid #989898;
+	padding-top:10%;
+}
+.box0 p{
+	display: none;
+	text-align: center;
+	font-size: 10px;
+}
+.ds {
+	background: white;
+}
+.ds h3{
+	font-size: 15px;
+	background: #9C4C9D;
+	padding: 6%;
+	color: white;
+	text-align: center;
+}
+.desc{
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 2px solid #EAEAEA;
+	margin-bottom: 8px;
+}
+.details{
+	width: calc(100% - 50px);
+}
+.thumb{
+	width: 40px;
+	text-align: right;
+}
+.bg-theme{
+	background: #68DFF0;
+}
+.table{
+	padding: 20px;
+}
+#login-page{
+	background: #F2F2F2;
+}
+.form-login{
+	width: 300px;
+    margin: 96px 420px;
+    text-align: center;
+    background: white;
+}
+.form-login-heading{
+	background: #68DFF0;
+	color: white;
+	padding: 5%;
+}
+.login-wrap{
+	padding: 6%;
+}
